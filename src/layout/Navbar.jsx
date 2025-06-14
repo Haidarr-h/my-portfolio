@@ -1,8 +1,8 @@
 export default function Navbar() {
   return (
     <>
-      <div className="bg-[#F3F4F6] ">
-        <div className="container-main ">
+      <div className="bg-[#865cb2]">
+        <div className="container-main text-white">
           <div className="flex flex-row items-center justify-between gap-3 py-3">
             <div>
               <h2 className="font-medium text-xl">Haidar Hanif</h2>

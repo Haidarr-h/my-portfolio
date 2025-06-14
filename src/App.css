@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import "tailwindcss";
 
 @layer components {
@@ -7,12 +7,20 @@
   }
 
   .heading-section {
-    @apply text-2xl lg:text-3xl font-semibold;
+    @apply text-xl lg:text-2xl font-semibold;
+  }
+
+  .card-about-me div {
+    @apply bg-[#865cb2] rounded-md shadow-2xl text-center w-25 px-2 py-2 flex flex-col justify-center items-center gap-1 min-h-20;
+  }
+
+  .card-about-me div p {
+    @apply text-sm;
   }
 }
 
 @layer base {
   body {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
   }
 }
