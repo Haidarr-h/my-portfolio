@@ -3,7 +3,7 @@
 
 @layer components {
   .container-main {
-    @apply max-w-[1200px] mx-auto px-[4%] xl:px-0;
+    @apply max-w-[1200px] mx-auto px-[6%] xl:px-0;
   }
 
   .heading-section {
