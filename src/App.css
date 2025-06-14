@@ -5,6 +5,10 @@
   .container-main {
     @apply max-w-[1200px] mx-auto px-[4%] xl:px-0;
   }
+
+  .heading-section {
+    @apply text-2xl lg:text-3xl font-semibold;
+  }
 }
 
 @layer base {
