@@ -14,7 +14,7 @@ export default function Activities() {
               {activitiesList.map((activity, index) => (
                 <motion.a
                   key={index}
-                  href=""
+                  // href=""
                   className="block rounded-xl bg-white"
                   initial={{ opacity: 0, y: -40 }}
                   animate={{ opacity: 1, y: 0 }}

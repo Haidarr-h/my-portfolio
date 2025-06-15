@@ -25,6 +25,14 @@
   .bg-tags {
     @apply bg-[#ca99ff] rounded-md px-1;
   }
+
+  .nav-options a {
+    @apply  hover:text-white hover:scale-105;
+  }
+
+  .socials a {
+    @apply hover:scale-105;
+  }
 }
 
 @layer base {

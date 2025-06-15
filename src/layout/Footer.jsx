@@ -11,15 +11,15 @@ export default function Footer() {
             <h1 className="heading-section uppercase">Lets Connect</h1>
             <p>haidarhanif.id@gmail.com</p>
 
-            <div className="flex flex-row gap-3 justify-center">
+            <div className="flex flex-row gap-3 justify-center socials">
               <a href="https://www.linkedin.com/in/haidar-hanif/">
-                <FaLinkedin color="white" size={30}></FaLinkedin>
+                <FaLinkedin color="white" size={50}></FaLinkedin>
               </a>
               <a href="https://github.com/Haidarr-h">
-                <FaSquareGithub size={30} color="white"></FaSquareGithub>
+                <FaSquareGithub size={50} color="white"></FaSquareGithub>
               </a>
               <a href="https://www.instagram.com/haidarr.h/">
-                <AiFillInstagram color="white" size={32}></AiFillInstagram>
+                <AiFillInstagram color="white" size={52}></AiFillInstagram>
               </a>
             </div>
           </div>
