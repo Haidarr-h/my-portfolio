@@ -17,6 +17,14 @@
   .card-about-me div p {
     @apply text-xs;
   }
+
+  .text-highlight {
+    @apply text-[#ac78e4];
+  }
+
+  .bg-tags {
+    @apply bg-[#ca99ff] rounded-md px-1;
+  }
 }
 
 @layer base {
