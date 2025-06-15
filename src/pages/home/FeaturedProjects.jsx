@@ -13,8 +13,8 @@ export default function Projects() {
               {projectList.map((project, index) => (
                 <motion.a 
                 initial={{ opacity:0, y:-40 }}
-                animate={{ opacity:1, y:0 }}
-                transition={{ duration: 1, ease:"easeOut" }}
+                animate={{ opacity:1, y:0, scale:1 }}
+                transition={{ duration: 0.5, ease:"easeOut" }}
                 whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
                 key={index} href={project.link} className="block rounded-xl bg-[#F9FAFB]">
                   <img

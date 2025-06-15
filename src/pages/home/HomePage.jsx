@@ -2,6 +2,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaSquareGithub } from "react-icons/fa6";
 import { AiFillInstagram } from "react-icons/ai";
 import { motion } from "framer-motion";
+import myPhoto from '../../assets/meReal.png';
 
 export default function HomePage() {
   return (
@@ -44,7 +45,7 @@ export default function HomePage() {
               transition={{ duration: 1, ease: "easeOut" }}
             >
               <img
-                src="../src/assets/meReal.png"
+                src={myPhoto}
                 alt="photo Profile"
                 className="w-[350px] h-auto mr-20"
               />
