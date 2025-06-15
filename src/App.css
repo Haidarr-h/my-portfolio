@@ -15,7 +15,7 @@
   }
 
   .card-about-me div p {
-    @apply text-sm;
+    @apply text-xs;
   }
 }
 
