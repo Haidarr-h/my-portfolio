@@ -8,9 +8,9 @@ import { RiSpeakFill } from "react-icons/ri";
 export default function AboutMe() {
   return (
     <>
-      <div className="bg-[#242424]">
+      <div className="bg-[#f1f5f7]">
         <div className="container-main py-10">
-          <div className="text-white flex flex-col lg:flex-row gap-5 lg:gap-1 justify-between">
+          <div className="text-black flex flex-col lg:flex-row gap-5 lg:gap-1 justify-between">
             {/* left */}
             <div className="flex-1">
               <h1 className="heading-section">About Me</h1>
@@ -35,7 +35,7 @@ export default function AboutMe() {
               </div>
             </div>
             {/* right */}
-            <div className="flex flex-col gap-5 flex-1 justify-center items-center">
+            <div className="flex flex-col text-white gap-5 flex-1 justify-center items-center">
               {/* atas */}
               <div className="flex flex-row gap-3 card-about-me">
                 <div>

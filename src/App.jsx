@@ -5,6 +5,7 @@ import HomePage from '../src/pages/home/HomePage'
 import AboutMe from './pages/home/AboutMe'
 import FeaturedProjects from './pages/home/FeaturedProjects'
 import Activities from './pages/home/Activities'
+import Footer from './layout/Footer'
 
 function App() {
 
@@ -15,7 +16,7 @@ function App() {
       <AboutMe/>
       <FeaturedProjects/>
       <Activities/>
-
+      <Footer></Footer>
     </>
   )
 }
