@@ -1,6 +1,7 @@
 import { FaLinkedin } from "react-icons/fa";
 import { FaSquareGithub } from "react-icons/fa6";
 import { AiFillInstagram } from "react-icons/ai";
+import { motion } from "framer-motion";
 
 export default function HomePage() {
   return (
@@ -8,7 +9,12 @@ export default function HomePage() {
       <div className="bg-white">
         <div className="container-main pt-10 lg:pt-20">
           <div className="flex flex-col lg:flex-row justify-between">
-            <div className="space-y-5">
+            <motion.div
+              className="space-y-5"
+              initial={{ opacity: 0, y: -40 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, ease: "easeOut" }}
+            >
               <h1 className="font-bold text-3xl lg:text-4xl text-center lg:text-left">
                 Turning Your Ideas into Real-World Digital Solutions
               </h1>
@@ -23,19 +29,26 @@ export default function HomePage() {
                 <a href="https://github.com/Haidarr-h">
                   <FaSquareGithub size={30}></FaSquareGithub>
                 </a>
-                <a href="https://www.instagram.com/haidarr.h/"><AiFillInstagram color="#ff2ea6" size={32}></AiFillInstagram></a>
+                <a href="https://www.instagram.com/haidarr.h/">
+                  <AiFillInstagram color="#ff2ea6" size={32}></AiFillInstagram>
+                </a>
               </div>
-              <button className="mx-auto block lg:mx-0">View my projects</button>
+              {/* <button className="mx-auto block lg:mx-0">
+                View my projects
+              </button> */}
+            </motion.div>
 
-            </div>
-
-            <div>
+            <motion.div
+              initial={{ opacity: 0, y: -40 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, ease: "easeOut" }}
+            >
               <img
                 src="../src/assets/meReal.png"
                 alt="photo Profile"
                 className="w-[350px] h-auto mr-20"
               />
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>

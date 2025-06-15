@@ -4,13 +4,19 @@ import { FaPython } from "react-icons/fa";
 import { FaBusinessTime } from "react-icons/fa";
 import { FaBrain } from "react-icons/fa";
 import { RiSpeakFill } from "react-icons/ri";
+import { motion } from "framer-motion";
 
 export default function AboutMe() {
   return (
     <>
-      <div className="bg-[#f1f5f7]">
+      <div id="about" className="bg-[#f1f5f7]">
         <div className="container-main py-10">
-          <div className="text-black flex flex-col lg:flex-row gap-5 lg:gap-1 justify-between">
+          <motion.div
+            className="text-black flex flex-col lg:flex-row gap-5 lg:gap-1 justify-between"
+            initial={{ opacity: 0, y: -40 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, ease: "easeOut" }}
+          >
             {/* left */}
             <div className="flex-1">
               <h1 className="heading-section">About Me</h1>
@@ -68,7 +74,7 @@ export default function AboutMe() {
                 </div>
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </>

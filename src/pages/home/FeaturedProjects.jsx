@@ -1,16 +1,22 @@
 import { projectList } from "../../data/Projects";
+import { motion } from "framer-motion";
 
 export default function Projects() {
   return (
     <>
-      <div className="bg-white">
+      <div id="projects" className="bg-white">
         <div className="container-main py-5 lg:py-10">
           <div className="space-y-5">
             <h1 className="heading-section text-center lg:text-left">Featured Projects</h1>
             {/* container for projects */}
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
               {projectList.map((project, index) => (
-                <a key={index} href="" className="block rounded-xl bg-[#F9FAFB]">
+                <motion.a 
+                initial={{ opacity:0, y:-40 }}
+                animate={{ opacity:1, y:0 }}
+                transition={{ duration: 1, ease:"easeOut" }}
+                whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
+                key={index} href={project.link} className="block rounded-xl bg-[#F9FAFB]">
                   <img
                     src={project.image_source}
                     alt={project.title}
@@ -25,7 +31,7 @@ export default function Projects() {
                       ))}
                     </div>
                   </div>
-                </a>
+                </motion.a>
               ))}
             </div>
           </div>

@@ -9,10 +9,10 @@ export default function Navbar() {
             </div>
 
             <div className="hidden lg:flex flex-row gap-5">
-              <a href="">About</a>
-              <a href="">Projects</a>
-              <a href="">Experiences</a>
-              <a href="">Contact</a>
+              <a href="#about">About</a>
+              <a href="#projects">Projects</a>
+              <a href="#activities">Experiences</a>
+              <a href="#footer">Contact</a>
             </div>
           </div>
         </div>

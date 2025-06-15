@@ -4,12 +4,14 @@ export const projectList = [
         image_source: "../src/assets/evalyn_dashboard.png",
         desc: "Modern form & grading website that uses AI to evaluate essays and give instant feedback.",
         tags: ["React", "FastAPI", "Microsoft Azure OpenAI", "PostgreSQL"],
+        link: "https://evalyn.netlify.app"
     },
     {
         title:"Upscale",
         image_source: "../src/assets/upscale.png",
         desc: "Help businesses to get their perfect talents. Help talents meet their perfect businesses.",
         tags: ["React", "Tailwindcss", "Framer Motion"],
+        link: "https://haidarr-h.github.io/upscale-react/"
     },
     {
         title:"Automatic Google Maps Web Scrapping",

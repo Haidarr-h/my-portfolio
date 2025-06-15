@@ -5,7 +5,7 @@ import { AiFillInstagram } from "react-icons/ai";
 export default function Footer() {
   return (
     <>
-      <div className="bg-[#865cb2]">
+      <div id="footer" className="bg-[#865cb2]">
         <div className="container-main py-5 lg:py-10">
           <div className="text-center text-white space-y-5">
             <h1 className="heading-section uppercase">Lets Connect</h1>
