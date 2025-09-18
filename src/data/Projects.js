@@ -2,8 +2,17 @@ import evalynPhoto from '../assets/evalyn_dashboard.png';
 import upscale from '../assets/upscale.png';
 import googleMaps from '../assets/web-scrap.png';
 import nextLink from '../assets/nextlink.png';
+import CareerLetter from '../assets/careerletter.png';
+
 
 export const projectList = [
+    {
+        title:"CareerLetter: Automatic Generate Cover Letter for Job Application",
+        image_source: CareerLetter,
+        desc: "Modern form & cover letter website that uses AI to generate cover letter for job application.",
+        tags: ["React", "FastAPI", "Gemini API", "Prompt Engineering"],
+        link: "https://careerletter.netlify.app"
+    },
     {
         title:"Evalyn: Automatic Grading with AI",
         image_source: evalynPhoto,
