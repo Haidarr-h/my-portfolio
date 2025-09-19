@@ -1,7 +1,6 @@
 import { FaLinkedin } from "react-icons/fa";
 import { FaSquareGithub } from "react-icons/fa6";
 import { AiFillInstagram } from "react-icons/ai";
-import { motion } from "framer-motion";
 import myPhoto from '../../assets/meReal.png';
 
 export default function HomePage() {

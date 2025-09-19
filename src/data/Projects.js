@@ -2,7 +2,7 @@ import evalynPhoto from '../assets/evalyn_dashboard.png';
 import upscale from '../assets/upscale.png';
 import googleMaps from '../assets/web-scrap.png';
 import nextLink from '../assets/nextlink.png';
-import CareerLetter from '../assets/careerletter.png';
+import CareerLetter from '../assets/careerLetter.png';
 
 
 export const projectList = [

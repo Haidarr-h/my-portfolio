@@ -1,5 +1,4 @@
 import { activitiesList } from "../../data/Activities";
-import { motion } from "framer-motion";
 
 export default function Activities() {
   return (
