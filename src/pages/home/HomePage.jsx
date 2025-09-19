@@ -2,6 +2,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaSquareGithub } from "react-icons/fa6";
 import { AiFillInstagram } from "react-icons/ai";
 import myPhoto from '../../assets/meReal.png';
+import { motion } from "framer-motion";
 
 export default function HomePage() {
   return (

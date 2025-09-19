@@ -1,4 +1,5 @@
 import { projectList } from "../../data/Projects";
+import { motion } from "framer-motion";
 
 export default function Projects() {
   return (
