@@ -7,7 +7,7 @@ import CareerLetter from '../assets/careerletter.png';
 
 export const projectList = [
     {
-        title:"CareerLetter: Automatic Generate Cover Letter for Job Application",
+        title:"CareerLetter: Automatic Cover Letter Generator for Job Application",
         image_source: CareerLetter,
         desc: "Modern form & cover letter website that uses AI to generate cover letter for job application.",
         tags: ["React", "FastAPI", "Gemini API", "Prompt Engineering"],
